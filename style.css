@@ -1,0 +1,324 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+.heading-2 {
+    font-size: 1.125rem;
+    color: #353738;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.text {
+    font-size: 1.125rem;
+    color: #848789;
+    line-height: 1.8;
+}
+
+header {
+    height: 800px;
+    background: url("img/header-bg.png") center center no-repeat;
+    background-size: cover;
+}
+/* MAIN-MENU*/
+.main-menu {
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+.main-menu-list li a {
+    font-size: 1.25rem;
+    color: #4d4959;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 40px;
+    margin-right: 40px;
+    letter-spacing: 3px;
+}
+/* ABOUT-US*/
+.about-us-section {
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background: #f7f7f7;
+    text-align: center;
+}
+.about-us-section .heading-2 {
+    margin-bottom: 20px;
+}
+.top-img {
+    margin-bottom: 25px;
+}
+
+/* WORK*/
+.work-main-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bike-1 {
+    background: url("img/Layer10.png") center center no-repeat;
+    background-size: cover;
+}
+.bike-2 {
+    background: url("img/Layer12.png") center center no-repeat;
+    background-size: cover;
+}
+.bike-3 {
+    background: url("img/Layer15.png") center center no-repeat;
+    background-size: cover;
+}
+.bike-3-side {
+    background: url("img/Layer14.png") center center no-repeat;
+    background-size: cover;
+}
+.work-aside {
+    padding: 60px;
+}
+.work-aside .icon-frame {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.work-aside .heading-2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.work-aside .text {
+    text-align: justify;
+}
+
+/* CAROUSEL SECTION*/
+.twitter-section {
+    background: #f7f7f7;
+    height: 470px;
+}
+.twitter-section .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.twitter-section .carousel {
+    height: 250px;
+}
+.twitter-section .carousel-content {
+    margin: 0 auto;
+    text-align: center;
+}
+.carousel-title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #353738;
+    margin-bottom: 20px;
+}
+.carousel-title .title-time {
+    color: #848789;
+}
+.carousel-content q {
+    font-size: 1.3rem;
+    color: #848789;
+    font-style: italic;
+    line-height: 1.4;
+}
+/* SHOP*/
+.seat-bike {
+    background: url("img/Layer22.png") center center no-repeat;
+    background-size: cover;
+}
+.seat-bike-1 {
+    background: url("img/Layer19.png") center center no-repeat;
+    background-size: cover;
+}
+.seat-bike-2 {
+    background: url("img/Layer21.png") center center no-repeat;
+    background-size: cover;
+}
+.seat-bike-3 {
+    background: url("img/Layer20.png") center center no-repeat;
+    background-size: cover;
+}
+.seat-bike-4 {
+    background: url("img/Layer25.png") center center no-repeat;
+    background-size: cover;
+}
+.seat-bike-5 {
+    background: url("img/Bg.png"), url("img/Layer23.png") center center no-repeat;
+    background-size: cover, cover;
+}
+.seat-bike-6 {
+    background: url("img/Layer24.png") center center no-repeat;
+    background-size: cover;
+}
+.seat-bike-7 {
+    background: url("img/Layer26.png") center center no-repeat;
+    background-size: cover;
+}
+.horiz-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+    font-size: .85rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.small-img, .horiz-img {
+    height: calc( 535px / 2 );
+    width: 100%;
+}
+
+.btn-container {
+    background: #282f35;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 75px;
+}
+.btn-discover {
+    color: #fff;
+    font-size: .85rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background: #282f35;
+    padding: 14px 56px;
+    border: 1px solid rgba(255,255,255,0.5);
+}
+.btn-discover:hover {
+    background: #fff;
+    color: #282f35;
+}
+/* MAILING*/
+.mailing-container {
+    padding-top: 100px;
+    padding-bottom: 110px;
+    text-align: center;
+}
+.mailing-container h5 {
+    font-size: 1.5rem;
+    margin: 20px 0 25px;
+    color: #848789;
+    font-style: italic;
+    line-height: 1.4;
+}
+.form-mailing {
+    display: flex;
+}
+.email-mailing {
+    height: 70px;
+    width: 400px;
+    padding: 25px;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #929292;
+}
+.btn-mailing {
+    margin-left: 10px;
+    padding: 16px 44px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #64c29e;
+}
+.btn-mailing:hover {
+    color: #64c29e ;
+    background: #fff;
+    border: 1px solid #64c29e;
+}
+/*FOOTER*/
+footer {
+    background: #f7f7f7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-adress {
+    color: #848789;
+    line-height: 1.25;
+}
+.footer-adress h5 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+}
+.footer-adress p {
+    font-size: .85rem;
+    font-style: italic;
+    margin: 0;
+}
+.craft-by {
+    display: flex;
+    align-items: center;
+    font-size: .85rem;
+    color: #848789;
+    font-style: italic;
+}
+
+/* MEDIUM SCREEN */
+@media only screen and (max-width: 992px) {
+    .main-menu {
+        background: #f7f7f7;
+    }
+    header {
+        height: 500px;
+    }
+    .work-main-bg img {
+        margin: 150px 0;
+    }
+    .work-aside-img img{
+        width: 100%;
+    }
+    .work-aside-container {
+        order: 2;
+    }
+    .work-main-bg {
+        order: 1;
+    }
+    .twitter-section .carousel {
+        height: 65%;
+    }
+}
+/* SMALL SCREEN*/
+@media only screen and (max-width: 768px) {
+    footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .footer-container {
+        flex-direction: column;
+    }
+    .footer-container ol {
+        margin: 20px 0;
+    }
+    .footer-container ol, .footer-adress, .craft-by {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    header {
+        height: 400px;
+    }
+
+    .work-aside {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .twitter-section .carousel {
+        height: 80%;
+    }
+    .email-mailing {
+        width: 85%;
+    }
+    .btn-mailing  {
+        margin: 10px 0 0;
+    }
+}
